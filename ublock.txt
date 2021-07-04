@@ -1,0 +1,5 @@
+inbox.lv##[id*=adBlock-modal]
+inbox.lv##[class*=modal-backdrop]
+inbox.lv##body:style(overflow: auto !important)
+
+tayyar.org##.footFix.ng-scope
