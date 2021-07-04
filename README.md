@@ -14,7 +14,9 @@ The purpose of this repository is to:
 
 
 Ex: A random div message
+
 ![Inbox Lv](/assets/images/inbox_lv__div.png)
+
 The fix is to block the div that starts with a specific prefix and then fix the window scrollbar
 #### Adding custom filter rules to uBlock
 
