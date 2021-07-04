@@ -1,26 +1,25 @@
-# Adblock Plus
+# uBlock
 
 The purpose of this repository is to:
 
-1. Host additional files such as custom filter rules for Adblock Plus extension.
+* Host additional files such as custom filter rules for uBlock extension.
 
-2. Not to loose the custom filter rules that were created over time when reinstalling the operating system.
+* Not to loose custom filter rules that were created over time when reinstalling the operating system.
    
-3. Having the same custom filter rules on different browsers or different operating systems with just a single URL link.
+* Having the same custom filter rules applied on different browsers or different operating systems with just a single URL.
 
 #### Custom filters
 
-1. Block annoying random divisions in page if adblock has been detected.
+* Block annoying random divisions in page if uBlock has been detected.
 
 
-Ex: Google message detected adblock
+Ex: A random div message
+![Inbox Lv](/assets/images/inbox_lv__div.png)
+The fix is to block the div that starts with a specific prefix and then fix the window scrollbar
+#### Adding custom filter rules to uBlock
 
-The fix is to block googletagmanager.com domain
+Click the icon of uBlock and then click on gears icon.
 
-#### Adding custom filter rules to Adblock Plus
+`Settings -> Filter Lists -> Custom -> Import`
 
-Click the icon of Adblock and then click on the gear icon.
-
-`Settings -> Advanced -> Add Filter List Via URL`
-
-To get the **URL** from GitHub repo click on the file that you want to add and then select **RAW** then copy and paste the URL from the browsers addres bar into Adblock textbox.
+To get the **URL** from GitHub repository click on the file that you wish to add and then select **RAW** then copy and paste the URL from the browsers address bar into uBlock textbox.
