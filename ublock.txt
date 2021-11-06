@@ -3,3 +3,6 @@ inbox.lv##[class*=modal-backdrop]
 inbox.lv##body:style(overflow: auto !important)
 
 tayyar.org##.footFix.ng-scope
+
+! Enable hidden dns settings in Huawei rooter
+192.168.43.1###dhcp_dns:style(display:block !important)
