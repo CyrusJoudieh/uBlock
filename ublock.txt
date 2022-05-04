@@ -6,3 +6,6 @@ tayyar.org##.footFix.ng-scope
 
 ! Enable hidden dns settings in Huawei rooter
 192.168.43.1###dhcp_dns:style(display:block !important)
+
+! Load - needs javascript/scriptlet_injection.js
+teledunet.com##+js(teledunet.js)
